@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal data </title>
+    <style>
+        body {
+            background-color:#a7292a;
+            
+        }
+        div {
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="D:\front end projects\gdg\task 1\2\index.html" target="blanck">
+        <label> 
+            <mark> Personal Data </mark>
+                <style>
+                    mark {
+                    background-color: #477da9;
+                     }
+                </style> 
+        </label>
+
+        <div style="background-color: #477da9; width: 100px; height: 100px; "> 
+                <p >
+                   <h4 style = padding-top:40px;padding-left:10px;  >Your Name</h4> 
+                 </p>
+        </div>
+
+        <div style="background-color: #DBA521; width: 1500px; height: 150px; "  > 
+            <div style="margin-bottom: 10px;padding: 10px; margin: 10px ;">
+                <label>
+                    First name :
+                    <input type="text" placeholder="ex. Rozan" required>
+                </label>
+            </div>
+            <div STYLE ="margin-bottom: 10px;padding: 10px; margin: 10px ;">
+                <label>
+                    Second name :
+                    <input type="text" placeholder="ex. Mohamed"  required>
+                </label>
+            </div>
+        </div>
+        <div>
+            <label for="phone">Your Phone:</label>
+            <input type="text" id="phone" name="phone" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+            <label for="repassword">Re-Password:</label>
+            <input type="password" id="repassword" name="repassword" required><br>
+        </div>
+        <div>
+            
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+        </div>
+        <div>
+            
+            <input type="checkbox" id="student" name="status" value="student">
+            <label for="student">Student</label><br>
+            <input type="checkbox" id="graduated" name="status" value="graduated">
+            <label for="graduated">Graduated</label><br>
+        </div>
+        <div>
+           
+            <select id="uni" name="uni">
+                <option value="AUC">AUC</option>
+                <option value="Bfcai">BFCAI</option>
+                <option value="CU">CU</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
